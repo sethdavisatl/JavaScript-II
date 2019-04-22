@@ -1,7 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
-
+function makeFunc() {
+  let name = "Seth D";
+  function displayName(){
+    console.log(name);
+  }
+  return displayName;
+}
+let myFunc = makeFunc();
+myFunc();
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
